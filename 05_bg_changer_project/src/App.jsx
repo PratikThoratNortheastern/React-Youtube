@@ -13,7 +13,7 @@ function App() {
   const [color, setColor] = useState("#FFFFFF");
   return (
     <div
-      className="w-full h-screen duration-200"
+      className="w-full h-screen duration-300"
       style={{ backgroundColor: color }}
     >
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
@@ -25,6 +25,7 @@ function App() {
           <Button color={"indigo"} onClick={() => setColor("indigo")} />
           <Button color={"pink"} onClick={() => setColor("pink")} />
           <Button color={"purple"} onClick={() => setColor("purple")} />
+          <Button color={"crimson"} onClick={() => setColor("crimson")} />
         </div>
       </div>
     </div>
