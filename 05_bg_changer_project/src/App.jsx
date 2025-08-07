@@ -10,7 +10,7 @@
 import { useState } from "react";
 import Button from "./components/Button";
 function App() {
-  const [color, setColor] = useState("olive");
+  const [color, setColor] = useState("#FFFFFF");
   return (
     <div
       className="w-full h-screen duration-200"
