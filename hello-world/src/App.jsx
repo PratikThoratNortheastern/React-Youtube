@@ -1,9 +1,14 @@
 import "./App.css";
 
+import { Button } from "./Button";
+import { Welcome } from "./Welcome";
+
 function App() {
   return (
     <div>
-      <p>Hello World!</p>
+      <h1>React 19 Course!</h1>
+      <Welcome />
+      <Button />
     </div>
   );
 }
