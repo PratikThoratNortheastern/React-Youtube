@@ -2,10 +2,15 @@ import { Button } from "./Button";
 import { Hello, HelloWithoutJsx } from "./Hello";
 import { Welcome } from "./Welcome";
 import { ProductDetails } from "./ProductDetails";
+import { Greeting } from "./Greeting";
 
 function App() {
   return (
     <div>
+      <Greeting />
+      <Greeting name="Bruce" message="GoodMorning" />
+      <Greeting message="Howdy" />
+      <Greeting name="Alice" />
       <ProductDetails
         title="Laptop"
         inStock={true}
