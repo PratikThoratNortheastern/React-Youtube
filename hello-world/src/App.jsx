@@ -3,10 +3,17 @@ import { Hello, HelloWithoutJsx } from "./Hello";
 import { Welcome } from "./Welcome";
 import { ProductDetails } from "./ProductDetails";
 import { Greeting } from "./Greeting";
+import { CardWrapper } from "./CardWrapper";
 
 function App() {
   return (
     <div>
+      <CardWrapper title={"User Profile"}>
+        <p>Name: Pratik Thorat</p>
+        <p>iampratikthorat@gmail.com</p>
+        <p>Male</p>
+      </CardWrapper>
+
       <Greeting />
       <Greeting name="Bruce" message="GoodMorning" />
       <Greeting message="Howdy" />
