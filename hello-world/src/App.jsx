@@ -5,9 +5,11 @@ import { ProductDetails } from "./ProductDetails";
 import { Greeting } from "./Greeting";
 import { CardWrapper } from "./CardWrapper";
 import { UserDetails } from "./UserDetails";
+import { ProductList } from "./ProductList";
 function App() {
   return (
     <div>
+      <ProductList />
       <CardWrapper title={"User Profile"}>
         <p>Name: Pratik Thorat</p>
         <p>iampratikthorat@gmail.com</p>
