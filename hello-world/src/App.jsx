@@ -4,7 +4,7 @@ import { Welcome } from "./Welcome";
 import { ProductDetails } from "./ProductDetails";
 import { Greeting } from "./Greeting";
 import { CardWrapper } from "./CardWrapper";
-
+import { UserDetails } from "./UserDetails";
 function App() {
   return (
     <div>
@@ -13,7 +13,41 @@ function App() {
         <p>iampratikthorat@gmail.com</p>
         <p>Male</p>
       </CardWrapper>
-
+      <br />
+      <br />
+      <br />
+      <UserDetails
+        name={"Bruce Wayne"}
+        isOnline={false}
+        isPremium={true}
+        isNewUser={false}
+        role={"moderator"}
+      />
+      <br />
+      <br />
+      <br />
+      <UserDetails
+        name={"Clark Kent"}
+        isOnline={true}
+        isPremium={false}
+        isNewUser={true}
+        role={"vip"}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <UserDetails
+        name={"Bruce Lee"}
+        isOnline={true}
+        isPremium={true}
+        isNewUser={true}
+        role={"admin"}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
       <Greeting />
       <Greeting name="Bruce" message="GoodMorning" />
       <Greeting message="Howdy" />
