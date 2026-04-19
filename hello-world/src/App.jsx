@@ -1,16 +1,19 @@
-import { Button } from "./Button";
-import { Hello, HelloWithoutJsx } from "./Hello";
-import { Welcome } from "./Welcome";
-import { ProductDetails } from "./ProductDetails";
-import { Greeting } from "./Greeting";
-import { CardWrapper } from "./CardWrapper";
-import { UserDetails } from "./UserDetails";
-import { ProductList } from "./ProductList";
-import { NameList } from "./NameList";
+// import { Button } from "./Button";
+// import { Hello, HelloWithoutJsx } from "./Hello";
+// import { Welcome } from "./Welcome";
+// import { ProductDetails } from "./ProductDetails";
+// import { Greeting } from "./Greeting";
+// import { CardWrapper } from "./CardWrapper";
+// import { UserDetails } from "./UserDetails";
+// import { ProductList } from "./ProductList";
+// import { NameList } from "./NameList";
+import { Alert } from "./Alert";
 function App() {
   return (
     <div>
-      <NameList />
+      <Alert>Your data is saved</Alert>
+      <Alert type="error">Oh Snap! We fucked up</Alert>
+      {/* <NameList />
       <br />
       <br />
       <br />
@@ -75,7 +78,7 @@ function App() {
       <Hello />
       <HelloWithoutJsx />
       <Welcome />
-      <Button />
+      <Button /> */}
     </div>
   );
 }
