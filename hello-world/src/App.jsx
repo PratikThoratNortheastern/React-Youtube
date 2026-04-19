@@ -7,13 +7,26 @@
 // import { UserDetails } from "./UserDetails";
 // import { ProductList } from "./ProductList";
 // import { NameList } from "./NameList";
-import { Alert } from "./Alert";
+
+// import { Recipe } from "./Recipe";
+
+// import { Alert } from "./Alert";
 function App() {
   return (
-    <div>
+    <>
+      {/* <section>
+        <h1>Spiced Chai Recipe</h1>
+        <h2>For two</h2>
+        <Recipe drinkers={2} />
+        <h2>For a gathering</h2>
+        <Recipe drinkers={4} />
+      </section> */}
+      {/*
+      <div>
+
       <Alert>Your data is saved</Alert>
       <Alert type="error">Oh Snap! We fucked up</Alert>
-      {/* <NameList />
+       <NameList />
       <br />
       <br />
       <br />
@@ -78,8 +91,10 @@ function App() {
       <Hello />
       <HelloWithoutJsx />
       <Welcome />
-      <Button /> */}
-    </div>
+      <Button />
+      </div>
+      */}
+    </>
   );
 }
 
